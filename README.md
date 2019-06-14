@@ -40,14 +40,17 @@ The format of input file:
 
 
 >\>AcrR
+
 >2251
 >1650
 >\>Ada
+
 >183
 >2393
 >1341
 >241
 >\>AgaR
+
 >2081
 >1299
 
