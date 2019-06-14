@@ -73,6 +73,29 @@ The data in result file have 7 columns with means:
 
 ## BBS
 
+### Inputs
+    Matrix
+    A    5   6   4   5   4   1   0   4   4   3   5   1   2   4   3   3   0   0   3   4   3   3   3   3   3
+    C    5   0   2   2   1   2   1   5   1   0   0   1   5   0   0   0   0   7   0   0   0   4   4   1   0
+    G    0   1   0   4   6   5   2   1   5   8   6   8   0   5   8   8   2   2   7   7   8   4   4   4   8
+    T    1   4   5   0   0   3   8   1   1   0   0   1   4   2   0   0   9   2   1   0   0   0   0   3   0
+
+    Alignment
+    ATCAACTGAAACAAAACGAAAGATT
+    GAAAACCATTATCTTTCGTTTTATT
+    GACTTTCATTATGTTTCTTTTGTGA
+    ACCAAGTGAAATGAAACGAAAGGCA
+    AACTTTCAGTTTCTTTTCTATAGAT
+    AAATTTCGTTTTATTTCTTTTTTCT
+    GCAATCCCTTTTGCTTCCTTTATCT
+    GCCTTTCTTTTTCTTTCGTTTTGAT
+    CAGGGTCAATTAGCTTCGTTTTGAT
+    GCAAAACGAAATGAAACGAAAGTTT
+    AAGGTGGGCTTGCATTTGCTTAATA
+
+    Consensus
+    AGGRKTTBCCGA
+
 ## BBR
 
 
