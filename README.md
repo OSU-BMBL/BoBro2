@@ -10,6 +10,21 @@ We have carried out systematic comparisons between motif predictions using BoBro
 
 **Citing us:** Ma, Q., Liu, B., Zhou, C., Yin, Y., Li, G., & Xu, Y. (2013). *Bioinformatics*, 29(18), 2261–2268. doi:10.1093/bioinformatics/btt397 
 
+# Usage
+## Installation
+
+Enter the folder "BoBro2.0" and type
+
+```
+./INSTALL
+```
+
+## BBA
+
+## BBS
+
+## BBR
+
 
 
 ## Contact
