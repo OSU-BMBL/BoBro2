@@ -60,13 +60,13 @@ The significantly co-occurence TF pairs are collected in "Input.BBA";
 Data for all TF pairs are in "Input.BBA.all";
 
 The data in result file have 7 columns with means:
-1.TF1
-2.TF2
-3.Hyper-geometric p-value
-4.Total sequences number
-5.The number of sequences contain binding sites of TF1
-6.The number of sequences contain binding sites of TF2
-7.The number of sequences contain binding sites for both TF1 and TF2
+1. TF1
+2. TF2
+3. Hyper-geometric p-value
+4. Total sequences number
+5. The number of sequences contain binding sites of TF1
+6. The number of sequences contain binding sites of TF2
+7. The number of sequences contain binding sites for both TF1 and TF2
 
 
 
