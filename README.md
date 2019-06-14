@@ -73,6 +73,25 @@ The data in result file have 7 columns with means:
 
 ## BBS
 
+The major program in the provided package is `BBS`, it can search motifs in a fasta file using known alignment or matrix format of moitfs
+
+1.  Search motif in alignment format:
+```
+perl BBS.pl motif_alignment promoters 1
+```
+2.  Search motif in matrix format:
+```
+perl BBS.pl motif_matrix promoters 2 
+```
+3.  Search motif in consensus format
+```
+perl BBS.pl motif_consensus promoters 3
+```
+4.  Search motif considering background genome:
+```
+perl BBS.pl motif_consensus promoters 1/2/3 background
+```
+
 ### Inputs
 Matrix:
 
