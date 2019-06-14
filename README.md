@@ -123,8 +123,18 @@ Consensus:
     AGGRKTTBCCGA
 
 ## BBR
+Simply run the following cmd to get a brief guide.
 
+$ perl BBR.pl
 
+1.  To do De-nove Motif finding in a fasta-format promoter file:
+```
+perl BBR.pl 1 promoters
+```
+2.  To do De-nove Motif finding with background sequences (if have) in fasta format:
+```
+perl BBR.pl 2 promoters background
+```
 
 ## Contact
 
