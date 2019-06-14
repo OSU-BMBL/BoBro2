@@ -144,6 +144,7 @@ The promoter file and background_file should be in standard fasta format,(see pr
 
 The output file will be named promoters.closures, (see promoters.closures for example).
 Basically, it contains 
+
     1. input data summary
     2. command line summary
     3. foreach motif candidate found, there will be detailed information: 
@@ -155,6 +156,7 @@ Basically, it contains
 B: When used to do Motif finding with a comparative genomic framework:
 
 For the target genome and reference genomes, three kinds of data is needed:
+
     1. the genome data (which could be downloaded from ncbi genebank); 
     2. the operon data (which could be downloaded or predicted from DOOR database);
     3. the orthology relationship between the target and references (which could be predicted use RBH method or GOST);
