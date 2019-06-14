@@ -38,21 +38,17 @@ perl BBA.pl Motif_position_for_BBA 10
 The input file include TF name and the sequence lables which contain binding sites of this TF(see 'Motif_position_for_BBA' for example).
 The format of input file:
 
-
->\>AcrR
-
->2251
->1650
->\>Ada
-
->183
->2393
->1341
->241
->\>AgaR
-
->2081
->1299
+    >AcrR
+    2251
+    1650
+    >Ada
+    183
+    2393
+    1341
+    241
+    >AgaR
+    2081
+    1299
 
 Here is motif information for 3 TFs: AcrR, Ada, and AgaR. the name should have '>' ahead;
 The number 2251 means there is a motif occurence for TF AcrR in 2251st promoter sequences.
