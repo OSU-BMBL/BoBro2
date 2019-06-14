@@ -136,6 +136,70 @@ perl BBR.pl 1 promoters
 perl BBR.pl 2 promoters background
 ```
 
+### Inputs and outputs
+
+A: When used to do De-nove motif finding:
+
+The promoter file and background_file should be in standard fasta format,(see promoter and background file in this folder for example).
+
+The output file will be named promoters.closures, (see promoters.closures for example).
+Basically, it contains 
+    1. input data summary
+    2. command line summary
+    3. foreach motif candidate found, there will be detailed information: 
+        a) motif seed: the seed sequence used to find this motif(which is a 'core' of the motif);
+        b) motif position weight matrix and consensus;
+        c) a table show all the aligned motif.
+
+
+B: When used to do Motif finding with a comparative genomic framework:
+
+For the target genome and reference genomes, three kinds of data is needed:
+    1. the genome data (which could be downloaded from ncbi genebank); 
+    2. the operon data (which could be downloaded or predicted from DOOR database);
+    3. the orthology relationship between the target and references (which could be predicted use RBH method or GOST);
+
+NOTE: Please see the the contents of folder example for a complete run:
+Take Ecoli as the target genome, two other species as reference.
+
+target_list: a list of gi from Ecoli;
+
+Ecoli.opr: operon structure of Ecoli;
+
+Escherichia_coli_K_12_substr__MG1655_uid57779: Ecoli data from NCBI;
+
+ncbi_data: the directory contains the species reference information downloaded from NCBI;
+
+operon: operon structure of reference genomes;
+format:
+
+    1: 16077069 
+    2: 16077070 
+    3: 16077071 16077072 255767014 
+    4: 16077074 
+    ...
+
+ortholog: orthology information between Ecoli and reference: (stanard output of GOST)
+format:
+
+    145698239,187933779 5e-90,6e-90
+    145698257,187933775 2e-05,3e-05
+    145698262,187935634 1e-27,6e-27
+    145698268,187932476 2e-25,9e-23
+    145698269,187933610 5e-05,7e-05
+
+All the output is in folder example_output, which contains:
+
+result.txt: same as the a De-nove prediction;
+
+motif.alignment: all alignments of predicted motif;
+
+motif.alignment.similarity: similarity score between each motif, (same as the output of BBC);
+
+Logos foreach motif are also given.
+
+
+
 ## Contact
 
 Any questions, problems, bugs are welcome and should be dumped to
